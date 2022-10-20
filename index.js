@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD App V2!')
+  res.send('TechChak project! Deploy Docker Image on EKS using ECR repo and jenkins pipeline to deploy image on ECR!')
 })
 
 app.get('/status', (req, res) => {

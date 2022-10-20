@@ -11,8 +11,8 @@ metadata:
 spec:
   selector:
     app: cicd-demo
-  type: LoadBalancer
+  type: NodePort
   ports:
-   -  protocol: TCP
+   -  nodePort: 31479
       port: 80
       targetPort: 3000
